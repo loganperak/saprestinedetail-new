@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>S&A Pristine Detailing — Chicagoland</title>
+    <meta name="description" content="Mobile auto detailing across Tinley Park & Chicagoland: exterior, interior, ceramic coating." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>S&A Pristine Detailing</h1>
+        <p class="sub">Mobile auto detailing across Chicagoland</p>
+        <nav>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#contact" class="btn">Get a Quote</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container grid-2">
+        <div>
+          <h2>Fast. Professional. Local.</h2>
+          <p>Same‑day bookings available. We come to you — homes, offices, fleet lots.</p>
+          <div class="cta-row">
+            <a href="#contact" class="btn">Free Quote</a>
+            <a href="tel:+17080000000" class="btn secondary">Call (708) 000‑0000</a>
+          </div>
+          <ul class="badges">
+            <li>Licensed & Insured</li>
+            <li>Upfront Pricing</li>
+            <li>5★ Local Reviews</li>
+          </ul>
+        </div>
+        <div>
+          <div class="image-ph">Add your job photo here</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h3>Our Services</h3>
+        <div class="cards">
+          <article class="card">
+            <h4>Exterior Wash & Wax</h4>
+            <p>Hand wash, clay, polish, sealant for lasting shine.</p>
+          </article>
+          <article class="card">
+            <h4>Interior Deep Clean</h4>
+            <p>Vacuum, shampoo, steam, odor removal — like-new feel.</p>
+          </article>
+          <article class="card">
+            <h4>Ceramic Coating</h4>
+            <p>Pro-grade protection packages with hydrophobic finish.</p>
+          </article>
+          <article class="card">
+            <h4>Headlight Restoration</h4>
+            <p>Clear, bright headlights — improved night visibility.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="alt">
+      <div class="container">
+        <h3>Recent Work</h3>
+        <div class="gallery">
+          <div class="tile">Project 1</div>
+          <div class="tile">Project 2</div>
+          <div class="tile">Project 3</div>
+          <div class="tile">Project 4</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h3>Contact & Quote</h3>
+        <form id="quote-form" action="https://formspree.io/f/your-id" method="POST" class="form-card">
+          <div class="grid-2">
+            <div>
+              <label>Name</label>
+              <input name="name" required placeholder="Jane Doe" />
+            </div>
+            <div>
+              <label>Email</label>
+              <input type="email" name="email" placeholder="you@email.com" />
+            </div>
+          </div>
+          <div class="grid-2">
+            <div>
+              <label>Phone</label>
+              <input name="phone" placeholder="(708) 555‑1234" />
+            </div>
+            <div>
+              <label>Service Needed</label>
+              <input name="service" placeholder="e.g., Ceramic coating" />
+            </div>
+          </div>
+          <div>
+            <label>Details</label>
+            <textarea name="message" rows="4" placeholder="Describe your vehicle or request"></textarea>
+          </div>
+          <button class="btn" type="submit">Send Request</button>
+          <p id="form-note" class="muted small"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        © <span id="year"></span> S&A Pristine Detailing — Tinley Park, IL
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
